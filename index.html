@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cash Register Project</title>
+</head>
+<body>
+    <main id="container">
+        <div class="square-wrapper">
+            <h2>Cash Register Project 📠</h2>
+            <section class="form-group">
+                <label for="cash" class="form-label">Enter Cash Amount:</label>
+                <input autocomplete="off" type="text" id="cash" class="form-input" placeholder="e.g., 5.00">
+                <button id="purchase-btn" class="form-button">Purchase</button>
+            </section>
+            <section id="price-info" class="info-section">
+                <p id="price"></p>
+                <p id="change"></p>
+            </section>
+            <div id="change-due" class="result"></div>
+            <div id="cash-in-drawer" class="result"></div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
